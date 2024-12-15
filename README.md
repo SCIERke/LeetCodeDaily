@@ -6,4 +6,4 @@ My Leetcode: [SChierk](https://leetcode.com/u/SChierk/)
 - 2558 Take Gifts From the Richest Pile (Easy)
 - 2593 Find Score of an Array After Marking All Elements (Medium)
 - 20 Valid Parentheses
-= 27 Remove Elements
+- 27 Remove Elements
