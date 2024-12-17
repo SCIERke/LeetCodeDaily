@@ -7,3 +7,4 @@ My Leetcode: [SChierk](https://leetcode.com/u/SChierk/)
 - 2593 Find Score of an Array After Marking All Elements (Medium)
 - 20 Valid Parentheses
 - 27 Remove Elements
+- 66 Plus One
