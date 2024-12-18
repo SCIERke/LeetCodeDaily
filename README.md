@@ -8,3 +8,4 @@ My Leetcode: [SChierk](https://leetcode.com/u/SChierk/)
 - 20 Valid Parentheses
 - 27 Remove Elements
 - 66 Plus One
+- 1475 Final Prices With a Special Discount in a Shop
