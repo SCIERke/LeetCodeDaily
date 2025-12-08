@@ -16,7 +16,6 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
         }
         if l2 != nil {
             sum += l2.Val
-            l2 = l2.Next
         }
 
         carry = sum / 10
