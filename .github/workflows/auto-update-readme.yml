@@ -24,6 +24,7 @@ jobs:
           echo "" >> README.md
           echo "## You can see the list of topics I've already solved below" >> README.md
           cat tmp.txt >> README.md
+          rm tmp.txt
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"

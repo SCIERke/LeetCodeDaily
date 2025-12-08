@@ -1,3 +1,4 @@
 # Ignore the .vscode folder
 .vscode/
 *.exe
+tmp.txt
