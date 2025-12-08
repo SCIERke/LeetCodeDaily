@@ -16,6 +16,4 @@ My Leetcode: [SChierk](https://leetcode.com/u/SChierk/)
 66_Plus_One
 70-Climbing_Stairs
 79_word_search
-README.md
 RomanToInteger
-tmp.txt
