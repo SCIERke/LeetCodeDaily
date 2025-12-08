@@ -1,0 +1,22 @@
+name: Auto update README.md
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  update_read_me:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: list_folder_and_note_to_tmp
+        run: |
+          ls > tmp.txt
+      - name: update README.md
+        run: |
+          echo "# Hello everyone!👋" > README.md
+          echo "This is my repository for Leetcode Daily.💪💪" >> README.md
+          echo "My Leetcode: [SChierk](https://leetcode.com/u/SChierk/)" >> README.md
+          echo "" >> README.md
+          echo "## You can see the list of topics I've already solved below" >> README.md
+          cat tmp.txt >> README.md
