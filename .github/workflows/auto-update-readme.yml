@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - 'main'
+    paths-ignore:
+      - README.md
 
 jobs:
   update_read_me:
@@ -20,3 +22,10 @@ jobs:
           echo "" >> README.md
           echo "## You can see the list of topics I've already solved below" >> README.md
           cat tmp.txt >> README.md
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Auto-update README.md"
+          git push
