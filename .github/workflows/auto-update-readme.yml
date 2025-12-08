@@ -1,4 +1,6 @@
 name: Auto update README.md
+permissions:
+  contents: write
 on:
   push:
     branches:
