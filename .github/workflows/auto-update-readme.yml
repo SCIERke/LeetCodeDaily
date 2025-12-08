@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: list_folder_and_note_to_tmp
         run: |
-          ls -1d */ | sed 's#/##' > tmp.txt
+          ls -1d */ | sed 's#/##' | sed 's/^/- /' > tmp.txt
       - name: update README.md
         run: |
           echo "# Hello everyone!👋" > README.md
