@@ -5,6 +5,7 @@ My Leetcode: [SChierk](https://leetcode.com/u/SChierk/)
 ## You can see the list of topics I've already solved below
 - 1475 Final Prices With a Special Discount in a Shop
 - 17 Letter Combinations of a Phone Number
+- 19 Remove Nth Node From End of List
 - 20 Valid Parentheses
 - 21 Merge Two Sorted Lists
 - 23 Merge k Sorted Lists
